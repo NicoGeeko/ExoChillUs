@@ -1,0 +1,81 @@
+/* VARIABLES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: arial;
+  font-size: 16pt;
+}
+
+h1 {
+  color: #7c925e;
+}
+
+h2 {
+  color: #7c925e;
+}
+
+p {
+  color: #6d6d6d;
+}
+
+header {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebe2d7;
+  color: #7c925e;
+  font-size: medium;
+}
+
+.containerOne {
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.containerOne h1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.containerOne img {
+  height: 30px;
+}
+.containerOne__primaryNav {
+  display: flex;
+}
+.containerOne__primaryNav a {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.containerTwo img {
+  width: 500px;
+}
+.containerTwo__text {
+  width: 500px;
+  background-color: #ebe2d7;
+  font-size: small;
+  padding: 10px;
+}
+
+.containerThree {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.containerThree img {
+  width: 200px;
+}
+
+footer {
+  background-color: #fbf9f7;
+}/*# sourceMappingURL=style.css.map */

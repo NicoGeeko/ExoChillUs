@@ -1,0 +1,10 @@
+@import'./Utils/colors';
+@import './Base/foundations';
+@import'./Layout/header';
+@import'./Layout/containerOne';
+@import './Layout/containerTwo';
+@import './Layout/containerThree';
+
+footer {
+    background-color: $chillUs-color-three ;
+}
